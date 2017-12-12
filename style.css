@@ -1,0 +1,46 @@
+body {
+    background-image: url("bar.jpg")
+}
+
+h1 {
+    text-align: center;
+}
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #EEE8AA;
+    opacity: 0.9;
+    padding: 0px 50px 50px 50px;
+    border-radius: 40px;
+    border: 1px solid;
+}
+
+#but0, #but1, #but2, #but3 {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #EEE8AA;
+    opacity: 0.9;
+    padding: 0px 50px 50px 50px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+/*#but0 {
+    background-color: #EEE8AA;
+}
+
+#but1{
+    background-color: #EEE8AA;
+    
+}
+
+#but2{
+    background-color: #EEE8AA;
+    
+}
+
+#but3{
+    background-color: #EEE8AA;
+    
+}
