@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- linked fonts and stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">  
-    <script src="jscript.js"></script>  
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">    
     <title>Quiz</title>
 </head>
 <body>
+
     <div class= "card">
         <div id="quiz">
-            <h1> Bar Trivia</h1>
-            <p> Questions</p>      
+            <h1> Who wants to win one dollar</h1>
+            <p id='question'></p>   
         </div>
     </div>
     
-
-<div id="buttons">
+<!-- created class to contain buttons 0 & 1 -->
+<div class="buttgrp1">
     <button id="but0"><span id="b0"></span></button>
     <button id="but1"><span id="b1"></span></button>
+</div>
+
+<!-- created class to contain buttons 2 & 3 -->
+<div class="buttgrp2">
     <button id="but2"><span id="b2"></span></button>
     <button id="but3"><span id="b3"></span></button>
+    </div>
 </div>
+
+<!-- created id for submit button -->
+<div id="submitbtn">
+<button id="submit">Submit</button>
+</div>
+
+<!-- linked javascript files  -->
+<script src="script.js"></script>  
 </body>
 </html>
 

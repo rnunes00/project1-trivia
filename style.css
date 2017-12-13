@@ -1,46 +1,88 @@
 body {
-    background-image: url("bar.jpg")
+    background-image: url("mill.jpg");   
+    background-size: cover;
 }
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #6495ED;   
 }
+
+p {
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
 .card {
     width: 400px;
     height: 200px;
     margin: 20px auto;
-    background-color: #EEE8AA;
+    background-color: #191970;
     opacity: 0.9;
     padding: 0px 50px 50px 50px;
-    border-radius: 40px;
-    border: 1px solid;
+    border-radius: 30px;
+    border: 1px solid #DA70D6;
+    box-shadow: 3px 3px 3px #cbcbcb;
+    font-family: 'Monda', sans-serif;
+    font: #FFFFFF;
+    }
+
+.buttgrp1 {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Monda', sans-serif; 
+    font-size: 18px;  
 }
 
-#but0, #but1, #but2, #but3 {
-    width: 100px;
-    height: 40px;
-    margin: 0 auto;
-    background-color: #EEE8AA;
+.buttgrp2 {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+}
+
+#but0, #but1 {
+    width: 300px;
+    height: 60px;
+    margin: 10px 70px 10px 10px;
+    background-color: #191970;
     opacity: 0.9;
-    padding: 0px 50px 50px 50px;
     border-radius: 10px;
-    border: 2px solid;
-}
-/*#but0 {
-    background-color: #EEE8AA;
-}
-
-#but1{
-    background-color: #EEE8AA;
+    border: 1px solid #DA70D6;
+    box-shadow: 3px 3px 3px #FFD700;
     
 }
 
-#but2{
-    background-color: #EEE8AA;
-    
+#but2, #but3 {
+    width: 300px;
+    height: 60px;
+    margin: 10px 70px 10px 10px;
+    background-color: #191970;
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 1px solid #DA70D6;
+    box-shadow: 3px 3px 3px #FFD700;
+}
+#but0:hover, #but1:hover, #but2:hover, #but3:hover {
+    background-color: #6495ED;
+    box-shadow: #DAA520;
 }
 
-#but3{
-    background-color: #EEE8AA;
-    
+#submitbtn {
+    display: flex;
+    justify-content: center;
 }
+
+#submit {
+    height: 50px;
+    width:  150px;
+    background-color: #6495ED;
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    margin: 60px 40px 0 0px;    
+}
+
