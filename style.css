@@ -50,6 +50,8 @@ p {
     height: 60px;
     margin: 10px 70px 10px 10px;
     background-color: #191970;
+    font-size: 20px;
+    color: #FFFFFF; 
     opacity: 0.9;
     border-radius: 10px;
     border: 1px solid #DA70D6;
@@ -62,6 +64,8 @@ p {
     height: 60px;
     margin: 10px 70px 10px 10px;
     background-color: #191970;
+    font-size: 20px;
+    color: #FFFFFF; 
     opacity: 0.9;
     border-radius: 10px;
     border: 1px solid #DA70D6;
@@ -75,14 +79,25 @@ p {
 #submitbtn {
     display: flex;
     justify-content: center;
+    
 }
 
 #submit {
     height: 50px;
     width:  150px;
-    background-color: #6495ED;
+    background-color: #191970;      
     font-family: 'Monda', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
+    color: #FFFFFF;    
     margin: 60px 40px 0 0px;    
 }
-
+#submit:hover {
+    background-color: #6495ED;    
+}
+#scorebtn {
+    background-color: #6495ED;
+    height: 50px;
+    width:  150px; 
+    color: #FFFFFF;   
+    font-size: 14px;    
+}
