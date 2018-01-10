@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- linked fonts and stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">  
-    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">    
+    <!-- linked fonts and stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
     <title>Quiz</title>
 </head>
-<body>
 
-    <div class= "card">
+<body>
+    <div class="card">
         <div id="quiz">
-            <h1> Who wants to win one dollar</h1>
-            <p id="question"></p>   
+            <h1> Who wants to win one dollar </h1>
+            <p id="question"></p>
         </div>
     </div>
-    
-<!-- created class to contain buttons 0 & 1 -->
-<div class="buttgrp1">
-    <button id="but0"><span id="b0"></span></button>
-    <button id="but1"><span id="b1"></span></button>
-</div>
 
-<!-- created class to contain buttons 2 & 3 -->
-<div class="buttgrp2">
-    <button id="but2"><span id="b2"></span></button>
-    <button id="but3"><span id="b3"></span></button>
+    <!-- I would put these divs below in one container and have them display as inline elements or use flex -->
+
+    <!-- created class to contain buttons 0 & 1 -->
+    <div class="buttgrp1">
+        <!-- think your spans dont need IDs since their containing elements have them, but you may not need them at all and could potentially simplify your HTML by  removing them -->
+
+        <!-- If you want to keep the spans, you can use the firstChild property in conjunction with a selection statement like document.getElementById('but0').firstChild -->
+
+        <!-- See here https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild -->
+
+        <button id="but0">
+            <span id="b0"></span>
+        </button>
+        <button id="but1">
+            <span id="b1"></span>
+        </button>
     </div>
-</div>
 
-<!-- created id for submit button -->
-<div id="submitbtn">
-<button id="submit">Submit</button>
-</div>
+    <!-- created class to contain buttons 2 & 3 -->
+    <div class="buttgrp2">
+        <button id="but2">
+            <span id="b2"></span>
+        </button>
+        <button id="but3">
+            <span id="b3"></span>
+        </button>
+    </div>
 
-<div id="score">
-    <button id="scorebtn">Score:</button>
-</div>
+    <!-- created id for submit button -->
+    <div id="submitbtn">
+        <button id="submit">Submit</button>
+    </div>
 
-<!-- linked javascript files  -->
-<script src="jscript.js"></script>  
+    <div id="score">
+        <button id="scorebtn">Score:</button>
+    </div>
+
+    <!-- linked javascript files  -->
+    <script src="jscript.js"></script>
 </body>
-</html>
 
+</html>
